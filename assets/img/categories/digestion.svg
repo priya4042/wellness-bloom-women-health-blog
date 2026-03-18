@@ -1,0 +1,19 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEFBF5"/>
+      <stop offset="1" stop-color="#FFF4E7"/>
+    </linearGradient>
+    <linearGradient id="gut" x1="450" y1="220" x2="760" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#43A57D"/>
+      <stop offset="1" stop-color="#1D7B58"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" rx="36" fill="url(#bg)"/>
+  <circle cx="1030" cy="130" r="115" fill="#FFE2C1" fill-opacity="0.7"/>
+  <circle cx="180" cy="560" r="155" fill="#D7F3E5" fill-opacity="0.75"/>
+  <rect x="430" y="190" width="340" height="320" rx="120" fill="url(#gut)"/>
+  <path d="M510 268C570 248 642 262 690 300C720 324 720 364 694 388C654 424 568 418 536 385C509 357 516 317 560 302C589 292 634 302 646 330" stroke="#D6FFEA" stroke-width="18" stroke-linecap="round"/>
+  <rect x="418" y="530" width="364" height="84" rx="42" fill="#FFFFFF" fill-opacity="0.86"/>
+  <text x="600" y="583" text-anchor="middle" fill="#1E7455" font-size="44" font-family="Verdana, sans-serif" font-weight="700">Digestion</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8F9F0"/>
+      <stop offset="1" stop-color="#FFF2E6"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="350" y1="120" x2="800" y2="580" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2D8E6A"/>
+      <stop offset="1" stop-color="#55B88F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" rx="36" fill="url(#bg)"/>
+  <circle cx="1030" cy="140" r="120" fill="#F9D1A8" fill-opacity="0.45"/>
+  <circle cx="220" cy="610" r="170" fill="#CFEEDD" fill-opacity="0.7"/>
+  <path d="M610 185C498 185 420 265 420 368C420 482 508 555 610 555C709 555 798 483 798 368C798 266 719 185 610 185Z" fill="url(#hair)"/>
+  <path d="M520 230C520 230 470 285 470 366C470 448 531 500 531 500" stroke="#E7FFF2" stroke-width="18" stroke-linecap="round"/>
+  <path d="M696 230C696 230 746 285 746 366C746 448 684 500 684 500" stroke="#C3F7DC" stroke-width="18" stroke-linecap="round"/>
+  <rect x="454" y="454" width="312" height="84" rx="42" fill="#FFFFFF" fill-opacity="0.82"/>
+  <text x="610" y="507" text-anchor="middle" fill="#1F6F52" font-size="44" font-family="Verdana, sans-serif" font-weight="700">Hair Growth</text>
+</svg>

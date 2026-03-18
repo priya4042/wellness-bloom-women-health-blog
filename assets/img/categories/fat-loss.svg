@@ -1,0 +1,21 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EFF8FF"/>
+      <stop offset="1" stop-color="#FFF3E2"/>
+    </linearGradient>
+    <linearGradient id="runner" x1="482" y1="184" x2="780" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4A8FD8"/>
+      <stop offset="1" stop-color="#2F6DB4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" rx="36" fill="url(#bg)"/>
+  <circle cx="220" cy="150" r="120" fill="#DBEDFF"/>
+  <circle cx="980" cy="540" r="145" fill="#FFE7CD"/>
+  <circle cx="622" cy="232" r="66" fill="url(#runner)"/>
+  <path d="M534 320C580 278 669 280 716 330L770 386C785 402 782 426 764 437C746 448 721 443 708 426L664 373L602 414C582 427 555 423 541 402C527 382 531 353 550 340L534 320Z" fill="url(#runner)"/>
+  <path d="M560 430L504 500" stroke="#3D7EC2" stroke-width="28" stroke-linecap="round"/>
+  <path d="M660 420L724 500" stroke="#3D7EC2" stroke-width="28" stroke-linecap="round"/>
+  <rect x="434" y="532" width="336" height="84" rx="42" fill="#FFFFFF" fill-opacity="0.86"/>
+  <text x="602" y="585" text-anchor="middle" fill="#2F66A3" font-size="44" font-family="Verdana, sans-serif" font-weight="700">Fat Loss</text>
+</svg>

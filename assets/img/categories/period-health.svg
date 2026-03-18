@@ -1,0 +1,20 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0F4"/>
+      <stop offset="1" stop-color="#F4F9EE"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 345) rotate(90) scale(190)">
+      <stop stop-color="#FF8FB1"/>
+      <stop offset="1" stop-color="#E46F95"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="700" rx="36" fill="url(#bg)"/>
+  <circle cx="220" cy="170" r="110" fill="#FFD5E3" fill-opacity="0.7"/>
+  <circle cx="980" cy="530" r="140" fill="#E9F6DE" fill-opacity="0.7"/>
+  <circle cx="600" cy="345" r="180" fill="url(#moon)"/>
+  <circle cx="662" cy="318" r="148" fill="#FFEAF1" fill-opacity="0.9"/>
+  <path d="M540 390C560 430 605 452 646 451" stroke="#D55680" stroke-width="14" stroke-linecap="round"/>
+  <rect x="378" y="522" width="444" height="84" rx="42" fill="#FFFFFF" fill-opacity="0.86"/>
+  <text x="600" y="576" text-anchor="middle" fill="#B7486D" font-size="44" font-family="Verdana, sans-serif" font-weight="700">Period Health</text>
+</svg>
