@@ -92,12 +92,12 @@ Modern static blog website focused on women health topics:
 5. Output directory: `.`
 6. Deploy.
 
-### Option C: GitHub Pages
+### Option C: GitHub Pages (Configured)
 1. Push repository to GitHub.
 2. Repository Settings -> Pages.
-3. Source: Deploy from branch.
-4. Branch: `main` and folder `/ (root)`.
-5. Save.
+3. Source: GitHub Actions.
+4. The workflow `.github/workflows/deploy-pages.yml` deploys automatically on each push to `main`.
+5. Site URL: `https://priya4042.github.io/wellness-bloom-women-health-blog/`.
 
 ## GitHub Setup Guide
 
@@ -148,11 +148,9 @@ Modern static blog website focused on women health topics:
 
 ## SEO Setup Checklist
 
-1. Replace `https://example.com` with your real domain in:
-   - all canonical tags
-   - Open Graph URLs
-   - `robots.txt`
-   - `sitemap.xml`
+1. Base site URL is already configured for GitHub Pages:
+   - `https://priya4042.github.io/wellness-bloom-women-health-blog`
+2. For a custom domain, set `SITE_URL` in GitHub Actions and rebuild content.
 2. Regenerate content after domain changes if needed:
    ```bash
    npm run build:content

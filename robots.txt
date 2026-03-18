@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://priya4042.github.io/wellness-bloom-women-health-blog/sitemap.xml

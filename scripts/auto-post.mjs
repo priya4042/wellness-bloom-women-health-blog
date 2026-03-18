@@ -5,6 +5,7 @@ const root = path.resolve(process.cwd());
 const postsPath = path.join(root, "data", "posts.json");
 const sitemapPath = path.join(root, "sitemap.xml");
 const blogRoot = path.join(root, "blog");
+const siteUrl = (process.env.SITE_URL || "https://priya4042.github.io/wellness-bloom-women-health-blog").replace(/\/$/, "");
 
 const categories = [
   { slug: "hair-growth", label: "Hair Growth" },
@@ -69,7 +70,7 @@ function buildSitemap(posts) {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${allPaths
-  .map((p) => `  <url><loc>https://example.com${p}</loc><changefreq>weekly</changefreq><priority>${p === "" ? "1.0" : "0.8"}</priority></url>`)
+  .map((p) => `  <url><loc>${siteUrl}${p}</loc><changefreq>weekly</changefreq><priority>${p === "" ? "1.0" : "0.8"}</priority></url>`)
   .join("\n")}
 </urlset>
 `;
@@ -87,9 +88,9 @@ function buildPostPage(post) {
   <meta property="og:title" content="${post.title} | Wellness Bloom">
   <meta property="og:description" content="${post.description}">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="https://example.com/blog/${post.slug}/">
-  <meta property="og:image" content="https://example.com/${post.image}">
-  <link rel="canonical" href="https://example.com/blog/${post.slug}/">
+  <meta property="og:url" content="${siteUrl}/blog/${post.slug}/">
+  <meta property="og:image" content="${siteUrl}/${post.image}">
+  <link rel="canonical" href="${siteUrl}/blog/${post.slug}/">
   <link rel="stylesheet" href="../../assets/css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
